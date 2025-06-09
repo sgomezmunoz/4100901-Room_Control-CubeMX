@@ -18,9 +18,9 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "led_driver.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include "led_driver.h"
 #include "ring_buffer.h"
 /* USER CODE END Includes */
 
@@ -40,7 +40,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     }
 }
 /* USER CODE END 0 */
-
   /* USER CODE BEGIN 2 */
   ring_buffer_init(&uart2_rx_rb, uart2_rx_buffer, UART2_RX_LEN);
   HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
@@ -62,6 +61,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 
     /* USER CODE BEGIN 3 */
   }
+  /* USER CODE END 3 */
   /* USER CODE END 3 */
 
 
