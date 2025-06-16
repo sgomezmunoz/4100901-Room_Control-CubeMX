@@ -292,8 +292,6 @@ Discarded input sections
  .bss           0x00000000        0x0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .text.ring_buffer_count
                 0x00000000       0x50 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
- .text.ring_buffer_is_full
-                0x00000000       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .text.ring_buffer_flush
                 0x00000000       0x26 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_macro   0x00000000      0xad8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
@@ -436,10 +434,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .bss.uart2_rx_data
-                0x00000000        0x1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .text.HAL_UART_RxCpltCallback
-                0x00000000       0x40 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0xad8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000      0x1a1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
@@ -835,14 +829,10 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_MspDeInit
                 0x00000000       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.HAL_UART_Transmit
-                0x00000000      0x112 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_Receive
                 0x00000000      0x192 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_IT
                 0x00000000       0xbc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.HAL_UART_Receive_IT
-                0x00000000       0x98 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_Transmit_DMA
                 0x00000000       0xf8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_Receive_DMA
@@ -883,8 +873,6 @@ Discarded input sections
                 0x00000000       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_AbortReceiveCpltCallback
                 0x00000000       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.HAL_UARTEx_RxEventCallback
-                0x00000000       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_ReceiverTimeout_Config
                 0x00000000       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_EnableReceiverTimeout
@@ -907,8 +895,6 @@ Discarded input sections
                 0x00000000       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_UART_GetError
                 0x00000000       0x1a CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.UART_Start_Receive_IT
-                0x00000000      0x18c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.UART_Start_Receive_DMA
                 0x00000000      0x140 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.UART_EndTxTransfer
@@ -939,10 +925,6 @@ Discarded input sections
                 0x00000000       0xc0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.UART_EndTransmit_IT
                 0x00000000       0x54 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.UART_RxISR_8BIT
-                0x00000000      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .text.UART_RxISR_16BIT
-                0x00000000      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_macro   0x00000000      0xad8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_macro   0x00000000      0x1a1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_macro   0x00000000       0x2e CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
@@ -3071,7 +3053,7 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x08000000                g_pfnVectors
                 0x08000188                        . = ALIGN (0x8)
 
-.text           0x08000190     0x4268
+.text           0x08000190     0x4a08
                 0x08000190                        . = ALIGN (0x8)
  *(.text)
  .text          0x08000190       0x40 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
@@ -3174,410 +3156,437 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .text.ring_buffer_is_empty
                 0x08000cec       0x3a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
                 0x08000cec                ring_buffer_is_empty
+ .text.ring_buffer_is_full
+                0x08000d26       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
+                0x08000d26                ring_buffer_is_full
  .text.keypad_init
-                0x08000d26       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
-                0x08000d26                keypad_init
+                0x08000d3e       0x14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
+                0x08000d3e                keypad_init
  .text.keypad_scan
-                0x08000d3a       0x1e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
-                0x08000d3a                keypad_scan
+                0x08000d52       0x1e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
+                0x08000d52                keypad_scan
+ .text.__io_putchar
+                0x08000d70       0x24 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000d70                __io_putchar
+ .text.HAL_UART_RxCpltCallback
+                0x08000d94       0x54 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000d94                HAL_UART_RxCpltCallback
  .text.HAL_GPIO_EXTI_Callback
-                0x08000d58       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x08000d58                HAL_GPIO_EXTI_Callback
- .text.main     0x08000d90       0x70 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x08000d90                main
+                0x08000de8       0x4c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000de8                HAL_GPIO_EXTI_Callback
+ .text.main     0x08000e34       0xa0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000e34                main
  .text.SystemClock_Config
-                0x08000e00       0xa2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x08000e00                SystemClock_Config
- *fill*         0x08000ea2        0x2 
+                0x08000ed4       0xa2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000ed4                SystemClock_Config
+ *fill*         0x08000f76        0x2 
  .text.MX_USART2_UART_Init
-                0x08000ea4       0x60 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000f78       0x60 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .text.MX_GPIO_Init
-                0x08000f04      0x170 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08000fd8      0x170 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .text.Error_Handler
-                0x08001074        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x08001074                Error_Handler
+                0x08001148        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x08001148                Error_Handler
  .text.NMI_Handler
-                0x08001080        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001080                NMI_Handler
+                0x08001154        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08001154                NMI_Handler
  .text.HardFault_Handler
-                0x08001088        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001088                HardFault_Handler
+                0x0800115c        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800115c                HardFault_Handler
  .text.MemManage_Handler
-                0x08001090        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001090                MemManage_Handler
+                0x08001164        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08001164                MemManage_Handler
  .text.BusFault_Handler
-                0x08001098        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x08001098                BusFault_Handler
+                0x0800116c        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800116c                BusFault_Handler
  .text.UsageFault_Handler
-                0x080010a0        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010a0                UsageFault_Handler
+                0x08001174        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08001174                UsageFault_Handler
  .text.SVC_Handler
-                0x080010a8        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010a8                SVC_Handler
+                0x0800117c        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800117c                SVC_Handler
  .text.DebugMon_Handler
-                0x080010b6        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010b6                DebugMon_Handler
+                0x0800118a        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x0800118a                DebugMon_Handler
  .text.PendSV_Handler
-                0x080010c4        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010c4                PendSV_Handler
+                0x08001198        0xe CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x08001198                PendSV_Handler
  .text.SysTick_Handler
-                0x080010d2        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010d2                SysTick_Handler
+                0x080011a6        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080011a6                SysTick_Handler
  .text.EXTI9_5_IRQHandler
-                0x080010de       0x1e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010de                EXTI9_5_IRQHandler
+                0x080011b2       0x1e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080011b2                EXTI9_5_IRQHandler
  .text.EXTI15_10_IRQHandler
-                0x080010fc       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
-                0x080010fc                EXTI15_10_IRQHandler
+                0x080011d0       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x080011d0                EXTI15_10_IRQHandler
  .text.HAL_MspInit
-                0x08001114       0x48 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x08001114                HAL_MspInit
+                0x080011e8       0x48 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x080011e8                HAL_MspInit
  .text.HAL_UART_MspInit
-                0x0800115c       0xb8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
-                0x0800115c                HAL_UART_MspInit
+                0x08001230       0xb8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x08001230                HAL_UART_MspInit
  .text.HAL_UART_Init
-                0x08001214       0x9c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08001214                HAL_UART_Init
+                0x080012e8       0x9c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x080012e8                HAL_UART_Init
+ .text.HAL_UART_Transmit
+                0x08001384      0x112 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001384                HAL_UART_Transmit
+ *fill*         0x08001496        0x2 
+ .text.HAL_UART_Receive_IT
+                0x08001498       0x98 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001498                HAL_UART_Receive_IT
+ .text.HAL_UARTEx_RxEventCallback
+                0x08001530       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001530                HAL_UARTEx_RxEventCallback
  .text.UART_SetConfig
-                0x080012b0      0x570 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x080012b0                UART_SetConfig
+                0x08001548      0x570 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001548                UART_SetConfig
  .text.UART_AdvFeatureConfig
-                0x08001820      0x144 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08001820                UART_AdvFeatureConfig
+                0x08001ab8      0x144 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001ab8                UART_AdvFeatureConfig
  .text.UART_CheckIdleState
-                0x08001964      0x150 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08001964                UART_CheckIdleState
+                0x08001bfc      0x150 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001bfc                UART_CheckIdleState
  .text.UART_WaitOnFlagUntilTimeout
-                0x08001ab4       0xda CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
-                0x08001ab4                UART_WaitOnFlagUntilTimeout
+                0x08001d4c       0xda CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001d4c                UART_WaitOnFlagUntilTimeout
+ *fill*         0x08001e26        0x2 
+ .text.UART_Start_Receive_IT
+                0x08001e28      0x18c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x08001e28                UART_Start_Receive_IT
  .text.UART_EndRxTransfer
-                0x08001b8e       0xc8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- *fill*         0x08001c56        0x2 
+                0x08001fb4       0xc8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .text.UART_RxISR_8BIT
+                0x0800207c      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .text.UART_RxISR_16BIT
+                0x08002238      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .text.HAL_Init
-                0x08001c58       0x40 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08001c58                HAL_Init
+                0x080023f4       0x40 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080023f4                HAL_Init
  .text.HAL_InitTick
-                0x08001c98       0x78 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08001c98                HAL_InitTick
+                0x08002434       0x78 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x08002434                HAL_InitTick
  .text.HAL_IncTick
-                0x08001d10       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08001d10                HAL_IncTick
+                0x080024ac       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080024ac                HAL_IncTick
  .text.HAL_GetTick
-                0x08001d38       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x08001d38                HAL_GetTick
+                0x080024d4       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x080024d4                HAL_GetTick
  .text.HAL_RCC_OscConfig
-                0x08001d50      0x7b8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08001d50                HAL_RCC_OscConfig
+                0x080024ec      0x7b8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x080024ec                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x08002508      0x200 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08002508                HAL_RCC_ClockConfig
+                0x08002ca4      0x200 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08002ca4                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08002708      0x118 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08002708                HAL_RCC_GetSysClockFreq
+                0x08002ea4      0x118 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08002ea4                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x08002820       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08002820                HAL_RCC_GetHCLKFreq
+                0x08002fbc       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08002fbc                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08002838       0x2c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08002838                HAL_RCC_GetPCLK1Freq
+                0x08002fd4       0x2c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08002fd4                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08002864       0x2c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
-                0x08002864                HAL_RCC_GetPCLK2Freq
+                0x08003000       0x2c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x08003000                HAL_RCC_GetPCLK2Freq
  .text.RCC_SetFlashLatencyFromMSIRange
-                0x08002890       0xc0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x0800302c       0xc0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .text.HAL_RCCEx_PeriphCLKConfig
-                0x08002950      0x5d4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
-                0x08002950                HAL_RCCEx_PeriphCLKConfig
+                0x080030ec      0x5d4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x080030ec                HAL_RCCEx_PeriphCLKConfig
  .text.RCCEx_PLLSAI1_Config
-                0x08002f24      0x1e8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x080036c0      0x1e8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.RCCEx_PLLSAI2_Config
-                0x0800310c      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x080038a8      0x1bc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .text.HAL_GPIO_Init
-                0x080032c8      0x354 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x080032c8                HAL_GPIO_Init
+                0x08003a64      0x354 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08003a64                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0800361c       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x0800361c                HAL_GPIO_WritePin
+                0x08003db8       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08003db8                HAL_GPIO_WritePin
  .text.HAL_GPIO_EXTI_IRQHandler
-                0x0800364c       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
-                0x0800364c                HAL_GPIO_EXTI_IRQHandler
+                0x08003de8       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x08003de8                HAL_GPIO_EXTI_IRQHandler
  .text.HAL_PWREx_GetVoltageRange
-                0x0800367c       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x0800367c                HAL_PWREx_GetVoltageRange
+                0x08003e18       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08003e18                HAL_PWREx_GetVoltageRange
  .text.HAL_PWREx_ControlVoltageScaling
-                0x08003698       0xac CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
-                0x08003698                HAL_PWREx_ControlVoltageScaling
+                0x08003e34       0xac CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x08003e34                HAL_PWREx_ControlVoltageScaling
  .text.__NVIC_SetPriorityGrouping
-                0x08003744       0x48 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08003ee0       0x48 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_GetPriorityGrouping
-                0x0800378c       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08003f28       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_EnableIRQ
-                0x080037a8       0x3c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08003f44       0x3c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.__NVIC_SetPriority
-                0x080037e4       0x54 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08003f80       0x54 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.NVIC_EncodePriority
-                0x08003838       0x66 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- *fill*         0x0800389e        0x2 
+                0x08003fd4       0x66 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ *fill*         0x0800403a        0x2 
  .text.SysTick_Config
-                0x080038a0       0x44 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x0800403c       0x44 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .text.HAL_NVIC_SetPriorityGrouping
-                0x080038e4       0x16 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080038e4                HAL_NVIC_SetPriorityGrouping
+                0x08004080       0x16 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08004080                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x080038fa       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x080038fa                HAL_NVIC_SetPriority
+                0x08004096       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x08004096                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x08003932       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x08003932                HAL_NVIC_EnableIRQ
+                0x080040ce       0x1c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080040ce                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x0800394e       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
-                0x0800394e                HAL_SYSTICK_Config
- *fill*         0x08003966        0x2 
+                0x080040ea       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x080040ea                HAL_SYSTICK_Config
+ *fill*         0x08004102        0x2 
  .text.SystemInit
-                0x08003968       0x24 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08003968                SystemInit
- .text._sbrk    0x0800398c       0x6c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
-                0x0800398c                _sbrk
- .text._read    0x080039f8       0x3a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x080039f8                _read
- .text._write   0x08003a32       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x08003a32                _write
- .text._close   0x08003a6a       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x08003a6a                _close
- .text._fstat   0x08003a82       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x08003a82                _fstat
- .text._isatty  0x08003aa2       0x16 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x08003aa2                _isatty
- .text._lseek   0x08003ab8       0x1a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
-                0x08003ab8                _lseek
- *fill*         0x08003ad2        0x2 
+                0x08004104       0x24 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08004104                SystemInit
+ .text._sbrk    0x08004128       0x6c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+                0x08004128                _sbrk
+ .text._read    0x08004194       0x3a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x08004194                _read
+ .text._write   0x080041ce       0x38 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x080041ce                _write
+ .text._close   0x08004206       0x18 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x08004206                _close
+ .text._fstat   0x0800421e       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x0800421e                _fstat
+ .text._isatty  0x0800423e       0x16 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x0800423e                _isatty
+ .text._lseek   0x08004254       0x1a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x08004254                _lseek
+ *fill*         0x0800426e        0x2 
  .text.Reset_Handler
-                0x08003ad4       0x50 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
-                0x08003ad4                Reset_Handler
+                0x08004270       0x50 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+                0x08004270                Reset_Handler
  .text.Default_Handler
-                0x08003b24        0x2 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
-                0x08003b24                RTC_Alarm_IRQHandler
-                0x08003b24                EXTI2_IRQHandler
-                0x08003b24                TIM8_TRG_COM_IRQHandler
-                0x08003b24                TIM8_CC_IRQHandler
-                0x08003b24                TIM1_CC_IRQHandler
-                0x08003b24                TSC_IRQHandler
-                0x08003b24                TAMP_STAMP_IRQHandler
-                0x08003b24                EXTI3_IRQHandler
-                0x08003b24                LPTIM2_IRQHandler
-                0x08003b24                DFSDM1_FLT1_IRQHandler
-                0x08003b24                I2C3_ER_IRQHandler
-                0x08003b24                DFSDM1_FLT2_IRQHandler
-                0x08003b24                EXTI0_IRQHandler
-                0x08003b24                I2C2_EV_IRQHandler
-                0x08003b24                CAN1_RX0_IRQHandler
-                0x08003b24                FPU_IRQHandler
-                0x08003b24                TIM1_UP_TIM16_IRQHandler
-                0x08003b24                ADC1_2_IRQHandler
-                0x08003b24                SPI1_IRQHandler
-                0x08003b24                TIM6_DAC_IRQHandler
-                0x08003b24                TIM8_UP_IRQHandler
-                0x08003b24                DMA2_Channel2_IRQHandler
-                0x08003b24                DMA1_Channel4_IRQHandler
-                0x08003b24                SAI2_IRQHandler
-                0x08003b24                DFSDM1_FLT3_IRQHandler
-                0x08003b24                USART3_IRQHandler
-                0x08003b24                DMA1_Channel7_IRQHandler
-                0x08003b24                CAN1_RX1_IRQHandler
-                0x08003b24                LCD_IRQHandler
-                0x08003b24                UART5_IRQHandler
-                0x08003b24                ADC3_IRQHandler
-                0x08003b24                TIM4_IRQHandler
-                0x08003b24                DMA2_Channel1_IRQHandler
-                0x08003b24                QUADSPI_IRQHandler
-                0x08003b24                I2C1_EV_IRQHandler
-                0x08003b24                DMA1_Channel6_IRQHandler
-                0x08003b24                UART4_IRQHandler
-                0x08003b24                DMA2_Channel4_IRQHandler
-                0x08003b24                TIM3_IRQHandler
-                0x08003b24                RCC_IRQHandler
-                0x08003b24                DMA1_Channel1_IRQHandler
-                0x08003b24                Default_Handler
-                0x08003b24                DMA2_Channel7_IRQHandler
-                0x08003b24                TIM7_IRQHandler
-                0x08003b24                SDMMC1_IRQHandler
-                0x08003b24                TIM5_IRQHandler
-                0x08003b24                I2C3_EV_IRQHandler
-                0x08003b24                RTC_WKUP_IRQHandler
-                0x08003b24                PVD_PVM_IRQHandler
-                0x08003b24                SPI2_IRQHandler
-                0x08003b24                CAN1_TX_IRQHandler
-                0x08003b24                DMA2_Channel5_IRQHandler
-                0x08003b24                DMA1_Channel5_IRQHandler
-                0x08003b24                EXTI4_IRQHandler
-                0x08003b24                RNG_IRQHandler
-                0x08003b24                TIM1_TRG_COM_TIM17_IRQHandler
-                0x08003b24                DMA1_Channel3_IRQHandler
-                0x08003b24                COMP_IRQHandler
-                0x08003b24                WWDG_IRQHandler
-                0x08003b24                LPUART1_IRQHandler
-                0x08003b24                DMA2_Channel6_IRQHandler
-                0x08003b24                TIM2_IRQHandler
-                0x08003b24                EXTI1_IRQHandler
-                0x08003b24                USART2_IRQHandler
-                0x08003b24                DFSDM1_FLT0_IRQHandler
-                0x08003b24                I2C2_ER_IRQHandler
-                0x08003b24                DMA1_Channel2_IRQHandler
-                0x08003b24                TIM8_BRK_IRQHandler
-                0x08003b24                CAN1_SCE_IRQHandler
-                0x08003b24                FLASH_IRQHandler
-                0x08003b24                USART1_IRQHandler
-                0x08003b24                OTG_FS_IRQHandler
-                0x08003b24                SPI3_IRQHandler
-                0x08003b24                I2C1_ER_IRQHandler
-                0x08003b24                FMC_IRQHandler
-                0x08003b24                SWPMI1_IRQHandler
-                0x08003b24                LPTIM1_IRQHandler
-                0x08003b24                SAI1_IRQHandler
-                0x08003b24                DMA2_Channel3_IRQHandler
-                0x08003b24                TIM1_BRK_TIM15_IRQHandler
- *fill*         0x08003b26        0x2 
- .text.printf   0x08003b28       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
-                0x08003b28                iprintf
-                0x08003b28                printf
- .text._puts_r  0x08003b4c       0xaa C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
-                0x08003b4c                _puts_r
- *fill*         0x08003bf6        0x2 
- .text.puts     0x08003bf8       0x10 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
-                0x08003bf8                puts
+                0x080042c0        0x2 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+                0x080042c0                RTC_Alarm_IRQHandler
+                0x080042c0                EXTI2_IRQHandler
+                0x080042c0                TIM8_TRG_COM_IRQHandler
+                0x080042c0                TIM8_CC_IRQHandler
+                0x080042c0                TIM1_CC_IRQHandler
+                0x080042c0                TSC_IRQHandler
+                0x080042c0                TAMP_STAMP_IRQHandler
+                0x080042c0                EXTI3_IRQHandler
+                0x080042c0                LPTIM2_IRQHandler
+                0x080042c0                DFSDM1_FLT1_IRQHandler
+                0x080042c0                I2C3_ER_IRQHandler
+                0x080042c0                DFSDM1_FLT2_IRQHandler
+                0x080042c0                EXTI0_IRQHandler
+                0x080042c0                I2C2_EV_IRQHandler
+                0x080042c0                CAN1_RX0_IRQHandler
+                0x080042c0                FPU_IRQHandler
+                0x080042c0                TIM1_UP_TIM16_IRQHandler
+                0x080042c0                ADC1_2_IRQHandler
+                0x080042c0                SPI1_IRQHandler
+                0x080042c0                TIM6_DAC_IRQHandler
+                0x080042c0                TIM8_UP_IRQHandler
+                0x080042c0                DMA2_Channel2_IRQHandler
+                0x080042c0                DMA1_Channel4_IRQHandler
+                0x080042c0                SAI2_IRQHandler
+                0x080042c0                DFSDM1_FLT3_IRQHandler
+                0x080042c0                USART3_IRQHandler
+                0x080042c0                DMA1_Channel7_IRQHandler
+                0x080042c0                CAN1_RX1_IRQHandler
+                0x080042c0                LCD_IRQHandler
+                0x080042c0                UART5_IRQHandler
+                0x080042c0                ADC3_IRQHandler
+                0x080042c0                TIM4_IRQHandler
+                0x080042c0                DMA2_Channel1_IRQHandler
+                0x080042c0                QUADSPI_IRQHandler
+                0x080042c0                I2C1_EV_IRQHandler
+                0x080042c0                DMA1_Channel6_IRQHandler
+                0x080042c0                UART4_IRQHandler
+                0x080042c0                DMA2_Channel4_IRQHandler
+                0x080042c0                TIM3_IRQHandler
+                0x080042c0                RCC_IRQHandler
+                0x080042c0                DMA1_Channel1_IRQHandler
+                0x080042c0                Default_Handler
+                0x080042c0                DMA2_Channel7_IRQHandler
+                0x080042c0                TIM7_IRQHandler
+                0x080042c0                SDMMC1_IRQHandler
+                0x080042c0                TIM5_IRQHandler
+                0x080042c0                I2C3_EV_IRQHandler
+                0x080042c0                RTC_WKUP_IRQHandler
+                0x080042c0                PVD_PVM_IRQHandler
+                0x080042c0                SPI2_IRQHandler
+                0x080042c0                CAN1_TX_IRQHandler
+                0x080042c0                DMA2_Channel5_IRQHandler
+                0x080042c0                DMA1_Channel5_IRQHandler
+                0x080042c0                EXTI4_IRQHandler
+                0x080042c0                RNG_IRQHandler
+                0x080042c0                TIM1_TRG_COM_TIM17_IRQHandler
+                0x080042c0                DMA1_Channel3_IRQHandler
+                0x080042c0                COMP_IRQHandler
+                0x080042c0                WWDG_IRQHandler
+                0x080042c0                LPUART1_IRQHandler
+                0x080042c0                DMA2_Channel6_IRQHandler
+                0x080042c0                TIM2_IRQHandler
+                0x080042c0                EXTI1_IRQHandler
+                0x080042c0                USART2_IRQHandler
+                0x080042c0                DFSDM1_FLT0_IRQHandler
+                0x080042c0                I2C2_ER_IRQHandler
+                0x080042c0                DMA1_Channel2_IRQHandler
+                0x080042c0                TIM8_BRK_IRQHandler
+                0x080042c0                CAN1_SCE_IRQHandler
+                0x080042c0                FLASH_IRQHandler
+                0x080042c0                USART1_IRQHandler
+                0x080042c0                OTG_FS_IRQHandler
+                0x080042c0                SPI3_IRQHandler
+                0x080042c0                I2C1_ER_IRQHandler
+                0x080042c0                FMC_IRQHandler
+                0x080042c0                SWPMI1_IRQHandler
+                0x080042c0                LPTIM1_IRQHandler
+                0x080042c0                SAI1_IRQHandler
+                0x080042c0                DMA2_Channel3_IRQHandler
+                0x080042c0                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x080042c2        0x2 
+ .text.printf   0x080042c4       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+                0x080042c4                iprintf
+                0x080042c4                printf
+ .text._puts_r  0x080042e8       0xaa C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+                0x080042e8                _puts_r
+ *fill*         0x08004392        0x2 
+ .text.puts     0x08004394       0x10 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+                0x08004394                puts
  .text.__swbuf_r
-                0x08003c08       0x7c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
-                0x08003c08                __swbuf_r
+                0x080043a4       0x7c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+                0x080043a4                __swbuf_r
  .text.__swsetup_r
-                0x08003c84       0xac C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
-                0x08003c84                __swsetup_r
- .text.__errno  0x08003d30        0xc C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
-                0x08003d30                __errno
+                0x08004420       0xac C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+                0x08004420                __swsetup_r
+ .text.__errno  0x080044cc        0xc C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x080044cc                __errno
  .text.__sfputc_r
-                0x08003d3c       0x2e C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x080044d8       0x2e C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x08003d6a       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
-                0x08003d6a                __sfputs_r
- *fill*         0x08003d8e        0x2 
+                0x08004506       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x08004506                __sfputs_r
+ *fill*         0x0800452a        0x2 
  .text._vfprintf_r
-                0x08003d90      0x230 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
-                0x08003d90                _vfprintf_r
-                0x08003d90                _vfiprintf_r
+                0x0800452c      0x230 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x0800452c                _vfprintf_r
+                0x0800452c                _vfiprintf_r
  .text._printf_common
-                0x08003fc0       0xda C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x08003fc0                _printf_common
- *fill*         0x0800409a        0x2 
+                0x0800475c       0xda C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0800475c                _printf_common
+ *fill*         0x08004836        0x2 
  .text._printf_i
-                0x0800409c      0x23c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x0800409c                _printf_i
+                0x08004838      0x23c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08004838                _printf_i
  .text.__swhatbuf_r
-                0x080042d8       0x4c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
-                0x080042d8                __swhatbuf_r
+                0x08004a74       0x4c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+                0x08004a74                __swhatbuf_r
  .text.__smakebuf_r
-                0x08004324       0x78 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
-                0x08004324                __smakebuf_r
+                0x08004ac0       0x78 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+                0x08004ac0                __smakebuf_r
  .text._fstat_r
-                0x0800439c       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
-                0x0800439c                _fstat_r
+                0x08004b38       0x24 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+                0x08004b38                _fstat_r
  .text._isatty_r
-                0x080043c0       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
-                0x080043c0                _isatty_r
+                0x08004b5c       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+                0x08004b5c                _isatty_r
  *(.glue_7)
- .glue_7        0x080043e0        0x0 linker stubs
+ .glue_7        0x08004b7c        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x080043e0        0x0 linker stubs
+ .glue_7t       0x08004b7c        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x080043e0        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .eh_frame      0x08004b7c        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
  *(.init)
- .init          0x080043e0        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080043e0                _init
- .init          0x080043e4        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .init          0x08004b7c        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004b7c                _init
+ .init          0x08004b80        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
  *(.fini)
- .fini          0x080043ec        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
-                0x080043ec                _fini
- .fini          0x080043f0        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
-                0x080043f8                        . = ALIGN (0x8)
-                0x080043f8                        _etext = .
+ .fini          0x08004b88        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08004b88                _fini
+ .fini          0x08004b8c        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x08004b98                        . = ALIGN (0x8)
+ *fill*         0x08004b94        0x4 
+                0x08004b98                        _etext = .
 
-.vfp11_veneer   0x080043f8        0x0
- .vfp11_veneer  0x080043f8        0x0 linker stubs
+.vfp11_veneer   0x08004b98        0x0
+ .vfp11_veneer  0x08004b98        0x0 linker stubs
 
-.v4_bx          0x080043f8        0x0
- .v4_bx         0x080043f8        0x0 linker stubs
+.v4_bx          0x08004b98        0x0
+ .v4_bx         0x08004b98        0x0 linker stubs
 
-.iplt           0x080043f8        0x0
- .iplt          0x080043f8        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.iplt           0x08004b98        0x0
+ .iplt          0x08004b98        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.rodata         0x080043f8       0xd0
-                0x080043f8                        . = ALIGN (0x8)
+.rodata         0x08004b98       0xd0
+                0x08004b98                        . = ALIGN (0x8)
  *(.rodata)
- .rodata        0x080043f8       0x4f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+ .rodata        0x08004b98       0x4f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  *(.rodata*)
- *fill*         0x08004447        0x1 
+ *fill*         0x08004be7        0x1 
  .rodata.AHBPrescTable
-                0x08004448       0x10 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08004448                AHBPrescTable
+                0x08004be8       0x10 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08004be8                AHBPrescTable
  .rodata.APBPrescTable
-                0x08004458        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08004458                APBPrescTable
+                0x08004bf8        0x8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08004bf8                APBPrescTable
  .rodata.MSIRangeTable
-                0x08004460       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
-                0x08004460                MSIRangeTable
+                0x08004c00       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x08004c00                MSIRangeTable
  .rodata._vfprintf_r.str1.1
-                0x08004490       0x33 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x08004c30       0x33 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
                                  0x11 (size before relaxing)
  .rodata._printf_i.str1.1
-                0x080044c3       0x22 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
-                0x080044e8                        . = ALIGN (0x8)
- *fill*         0x080044c3        0x5 
+                0x08004c63       0x22 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x08004c88                        . = ALIGN (0x8)
+ *fill*         0x08004c63        0x5 
 
-.ARM.extab      0x080044c8        0x0
-                0x080044c8                        . = ALIGN (0x8)
+.ARM.extab      0x08004c68        0x0
+                0x08004c68                        . = ALIGN (0x8)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080044c8                        . = ALIGN (0x8)
+                0x08004c68                        . = ALIGN (0x8)
 
-.ARM            0x080044c8        0x8
-                0x080044c8                        . = ALIGN (0x8)
-                0x080044c8                        __exidx_start = .
+.ARM            0x08004c68        0x8
+                0x08004c68                        . = ALIGN (0x8)
+                0x08004c68                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x080044c8        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .ARM.exidx     0x080044d0        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .ARM.exidx     0x08004c68        0x8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x08004c70        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
                                   0x8 (size before relaxing)
-                0x080044d0                        __exidx_end = .
-                0x080044d0                        . = ALIGN (0x8)
+                0x08004c70                        __exidx_end = .
+                0x08004c70                        . = ALIGN (0x8)
 
-.rel.dyn        0x080044d0        0x0
- .rel.iplt      0x080044d0        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+.rel.dyn        0x08004c70        0x0
+ .rel.iplt      0x08004c70        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
 
-.preinit_array  0x080044d0        0x0
-                0x080044d0                        . = ALIGN (0x8)
-                0x080044d0                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x08004c70        0x0
+                0x08004c70                        . = ALIGN (0x8)
+                0x08004c70                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x080044d0                        PROVIDE (__preinit_array_end = .)
-                0x080044d0                        . = ALIGN (0x8)
+                0x08004c70                        PROVIDE (__preinit_array_end = .)
+                0x08004c70                        . = ALIGN (0x8)
 
-.init_array     0x080044d0        0x8
-                0x080044d0                        . = ALIGN (0x8)
-                0x080044d0                        PROVIDE (__init_array_start = .)
+.init_array     0x08004c70        0x8
+                0x08004c70                        . = ALIGN (0x8)
+                0x08004c70                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x080044d0        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
-                0x080044d4                        PROVIDE (__init_array_end = .)
-                0x080044d8                        . = ALIGN (0x8)
- *fill*         0x080044d4        0x4 
+ .init_array    0x08004c70        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x08004c74                        PROVIDE (__init_array_end = .)
+                0x08004c78                        . = ALIGN (0x8)
+ *fill*         0x08004c74        0x4 
 
-.fini_array     0x080044d8        0x8
-                0x080044d8                        . = ALIGN (0x8)
+.fini_array     0x08004c78        0x8
+                0x08004c78                        . = ALIGN (0x8)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x080044d8        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .fini_array    0x08004c78        0x4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x080044e0                        . = ALIGN (0x8)
- *fill*         0x080044dc        0x4 
-                0x080044e0                        _sidata = LOADADDR (.data)
+                0x08004c80                        . = ALIGN (0x8)
+ *fill*         0x08004c7c        0x4 
+                0x08004c80                        _sidata = LOADADDR (.data)
 
-.data           0x20000000       0x98 load address 0x080044e0
+.data           0x20000000       0x98 load address 0x08004c80
                 0x20000000                        . = ALIGN (0x8)
                 0x20000000                        _sdata = .
  *(.data)
@@ -3605,11 +3614,11 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
                 0x20000098                        . = ALIGN (0x8)
                 0x20000098                        _edata = .
 
-.igot.plt       0x20000098        0x0 load address 0x08004578
+.igot.plt       0x20000098        0x0 load address 0x08004d18
  .igot.plt      0x20000098        0x0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard/crtbegin.o
                 0x20000098                        . = ALIGN (0x4)
 
-.bss            0x20000098      0x230 load address 0x08004578
+.bss            0x20000098      0x234 load address 0x08004d18
                 0x20000098                        _sbss = .
                 0x20000098                        __bss_start__ = _sbss
  *(.bss)
@@ -3640,34 +3649,39 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .bss.uart2_rx_buffer
                 0x20000288       0x10 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
                 0x20000288                uart2_rx_buffer
+ .bss.uart2_rx_data
+                0x20000298        0x1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x20000298                uart2_rx_data
+ *fill*         0x20000299        0x3 
  .bss.uart2_rx_rb
-                0x20000298        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x20000298                uart2_rx_rb
+                0x2000029c        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x2000029c                uart2_rx_rb
  .bss.keypad_buffer
-                0x200002a4       0x10 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x200002a4                keypad_buffer
+                0x200002a8       0x10 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x200002a8                keypad_buffer
  .bss.keypad_rb
-                0x200002b4        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
-                0x200002b4                keypad_rb
- .bss.uwTick    0x200002c0        0x4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
-                0x200002c0                uwTick
+                0x200002b8        0xc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x200002b8                keypad_rb
+ .bss.uwTick    0x200002c4        0x4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x200002c4                uwTick
  .bss.__sbrk_heap_end
-                0x200002c4        0x4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+                0x200002c8        0x4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
  *(COMMON)
-                0x200002c8                        . = ALIGN (0x4)
-                0x200002c8                        _ebss = .
-                0x200002c8                        __bss_end__ = _ebss
+                0x200002cc                        . = ALIGN (0x4)
+                0x200002cc                        _ebss = .
+                0x200002cc                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x200002c8      0x600 load address 0x08004578
-                0x200002c8                        . = ALIGN (0x8)
+                0x200002cc      0x604 load address 0x08004d18
+                0x200002d0                        . = ALIGN (0x8)
+ *fill*         0x200002cc        0x4 
                 [!provide]                        PROVIDE (end = .)
-                0x200002c8                        PROVIDE (_end = .)
-                0x200004c8                        . = (. + _Min_Heap_Size)
- *fill*         0x200002c8      0x200 
-                0x200008c8                        . = (. + _Min_Stack_Size)
- *fill*         0x200004c8      0x400 
-                0x200008c8                        . = ALIGN (0x8)
+                0x200002d0                        PROVIDE (_end = .)
+                0x200004d0                        . = (. + _Min_Heap_Size)
+ *fill*         0x200002d0      0x200 
+                0x200008d0                        . = (. + _Min_Stack_Size)
+ *fill*         0x200004d0      0x400 
+                0x200008d0                        . = ALIGN (0x8)
 
 /DISCARD/
  libc.a(*)
@@ -3783,7 +3797,7 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
 LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_frame    0x00000000     0x2f3c
+.debug_frame    0x00000000     0x2f60
  .debug_frame   0x00000000      0x144 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
  .debug_frame   0x00000144       0x34 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
  .debug_frame   0x00000178       0x88 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
@@ -3802,60 +3816,60 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_frame   0x000004f8       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
  .debug_frame   0x00000524      0x124 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_frame   0x00000648       0x60 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
- .debug_frame   0x000006a8       0xf4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .debug_frame   0x0000079c      0x13c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_frame   0x000008d8       0x84 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_frame   0x0000095c      0x9f4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_frame   0x00001350      0x498 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_frame   0x000017e8      0x21c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_frame   0x00001a04      0x2fc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_frame   0x00001d00      0x14c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_frame   0x00001e4c      0x584 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_frame   0x000023d0      0x4e8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_frame   0x000028b8       0x58 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_frame   0x00002910       0x34 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
- .debug_frame   0x00002944      0x2ac CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00002bf0       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00002c1c       0x34 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
- .debug_frame   0x00002c50       0x6c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
- .debug_frame   0x00002cbc       0x3c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
- .debug_frame   0x00002cf8       0x40 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
- .debug_frame   0x00002d38       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
- .debug_frame   0x00002d64       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_frame   0x00002d84       0xa8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_frame   0x00002e2c       0x60 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_frame   0x00002e8c       0x58 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
- .debug_frame   0x00002ee4       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
- .debug_frame   0x00002f10       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+ .debug_frame   0x000006a8      0x118 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+ .debug_frame   0x000007c0      0x13c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_frame   0x000008fc       0x84 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_frame   0x00000980      0x9f4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_frame   0x00001374      0x498 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_frame   0x0000180c      0x21c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_frame   0x00001a28      0x2fc CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00001d24      0x14c CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_frame   0x00001e70      0x584 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_frame   0x000023f4      0x4e8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_frame   0x000028dc       0x58 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_frame   0x00002934       0x34 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+ .debug_frame   0x00002968      0x2ac CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00002c14       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00002c40       0x34 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/thumb/v7e-m+fp/hard\libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002c74       0x6c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+ .debug_frame   0x00002ce0       0x3c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+ .debug_frame   0x00002d1c       0x40 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+ .debug_frame   0x00002d5c       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+ .debug_frame   0x00002d88       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_frame   0x00002da8       0xa8 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_frame   0x00002e50       0x60 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_frame   0x00002eb0       0x58 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+ .debug_frame   0x00002f08       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+ .debug_frame   0x00002f34       0x2c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
 
-.debug_info     0x00000000    0x116a5
+.debug_info     0x00000000    0x116f4
  .debug_info    0x00000000      0x244 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_info    0x00000244      0x26c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
- .debug_info    0x000004b0     0x1231 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .debug_info    0x000016e1      0x15c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_info    0x0000183d      0xd21 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_info    0x0000255e     0x3b69 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_info    0x000060c7      0xc09 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_info    0x00006cd0      0xc14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_info    0x000078e4      0xe11 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_info    0x000086f5      0x757 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_info    0x00008e4c      0x99e CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_info    0x000097ea      0xd81 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_info    0x0000a56b      0x5b1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_info    0x0000ab1c      0x168 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
- .debug_info    0x0000ac84      0x6a3 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
- .debug_info    0x0000b327       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
- .debug_info    0x0000b357      0x841 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
- .debug_info    0x0000bb98      0x950 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
- .debug_info    0x0000c4e8      0x874 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
- .debug_info    0x0000cd5c      0x7bb C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
- .debug_info    0x0000d517      0x6fb C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_info    0x0000dc12     0x1094 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_info    0x0000eca6      0xde2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_info    0x0000fa88      0xb1a C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
- .debug_info    0x000105a2      0x981 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
- .debug_info    0x00010f23      0x75d C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
- .debug_info    0x00011680       0x25 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_info    0x000004b0     0x1280 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+ .debug_info    0x00001730      0x15c CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_info    0x0000188c      0xd21 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_info    0x000025ad     0x3b69 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_info    0x00006116      0xc09 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_info    0x00006d1f      0xc14 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_info    0x00007933      0xe11 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_info    0x00008744      0x757 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_info    0x00008e9b      0x99e CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_info    0x00009839      0xd81 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_info    0x0000a5ba      0x5b1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_info    0x0000ab6b      0x168 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+ .debug_info    0x0000acd3      0x6a3 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x0000b376       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+ .debug_info    0x0000b3a6      0x841 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+ .debug_info    0x0000bbe7      0x950 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+ .debug_info    0x0000c537      0x874 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+ .debug_info    0x0000cdab      0x7bb C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+ .debug_info    0x0000d566      0x6fb C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_info    0x0000dc61     0x1094 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_info    0x0000ecf5      0xde2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_info    0x0000fad7      0xb1a C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+ .debug_info    0x000105f1      0x981 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+ .debug_info    0x00010f72      0x75d C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+ .debug_info    0x000116cf       0x25 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
 
 .debug_abbrev   0x00000000     0x3242
  .debug_abbrev  0x00000000       0xf9 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
@@ -3886,116 +3900,116 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_abbrev  0x0000307e      0x1b0 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
  .debug_abbrev  0x0000322e       0x14 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
 
-.debug_aranges  0x00000000      0xbb0
+.debug_aranges  0x00000000      0xbb8
  .debug_aranges
                 0x00000000       0x50 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_aranges
                 0x00000050       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
  .debug_aranges
-                0x00000078       0x50 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x00000078       0x58 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .debug_aranges
-                0x000000c8       0x70 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x000000d0       0x70 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_aranges
-                0x00000138       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x00000140       0x30 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_aranges
-                0x00000168      0x228 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x00000170      0x228 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_aranges
-                0x00000390      0x130 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x00000398      0x130 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_aranges
-                0x000004c0       0x90 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x000004c8       0x90 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000550       0xc0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x00000558       0xc0 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x00000610       0x58 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x00000618       0x58 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_aranges
-                0x00000668      0x160 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x00000670      0x160 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x000007c8      0x128 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x000007d0      0x128 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_aranges
-                0x000008f0       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x000008f8       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
  .debug_aranges
-                0x00000918       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+                0x00000920       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
  .debug_aranges
-                0x00000938       0xa8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x00000940       0xa8 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
  .debug_aranges
-                0x000009e0       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+                0x000009e8       0x28 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
  .debug_aranges
-                0x00000a08       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+                0x00000a10       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
  .debug_aranges
-                0x00000a30       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+                0x00000a38       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
  .debug_aranges
-                0x00000a58       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+                0x00000a60       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
  .debug_aranges
-                0x00000a80       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+                0x00000a88       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
  .debug_aranges
-                0x00000aa0       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x00000aa8       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
  .debug_aranges
-                0x00000ac0       0x40 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x00000ac8       0x40 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
  .debug_aranges
-                0x00000b00       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x00000b08       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_aranges
-                0x00000b28       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+                0x00000b30       0x28 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
  .debug_aranges
-                0x00000b50       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+                0x00000b58       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
  .debug_aranges
-                0x00000b70       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+                0x00000b78       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
  .debug_aranges
-                0x00000b90       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+                0x00000b98       0x20 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
 
 .debug_rnglists
-                0x00000000      0x92d
+                0x00000000      0x934
  .debug_rnglists
                 0x00000000       0x37 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_rnglists
                 0x00000037       0x19 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
  .debug_rnglists
-                0x00000050       0x39 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+                0x00000050       0x40 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
  .debug_rnglists
-                0x00000089       0x4f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+                0x00000090       0x4f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
  .debug_rnglists
-                0x000000d8       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+                0x000000df       0x20 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
  .debug_rnglists
-                0x000000f8      0x1db CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+                0x000000ff      0x1db CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
  .debug_rnglists
-                0x000002d3       0xdf CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+                0x000002da       0xdf CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
  .debug_rnglists
-                0x000003b2       0x6d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+                0x000003b9       0x6d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
  .debug_rnglists
-                0x0000041f       0x95 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+                0x00000426       0x95 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x000004b4       0x3f CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+                0x000004bb       0x3f CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
  .debug_rnglists
-                0x000004f3      0x109 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+                0x000004fa      0x109 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
  .debug_rnglists
-                0x000005fc       0xda CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+                0x00000603       0xda CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
  .debug_rnglists
-                0x000006d6       0x1a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+                0x000006dd       0x1a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
  .debug_rnglists
-                0x000006f0       0x13 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+                0x000006f7       0x13 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
  .debug_rnglists
-                0x00000703       0x79 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+                0x0000070a       0x79 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
  .debug_rnglists
-                0x0000077c       0x19 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+                0x00000783       0x19 CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
  .debug_rnglists
-                0x00000795       0x19 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+                0x0000079c       0x19 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
  .debug_rnglists
-                0x000007ae       0x44 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+                0x000007b5       0x44 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
  .debug_rnglists
-                0x000007f2       0x25 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+                0x000007f9       0x25 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
  .debug_rnglists
-                0x00000817       0x26 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+                0x0000081e       0x26 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
  .debug_rnglists
-                0x0000083d       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+                0x00000844       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
  .debug_rnglists
-                0x00000850       0x38 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+                0x00000857       0x38 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
  .debug_rnglists
-                0x00000888       0x66 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+                0x0000088f       0x66 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
  .debug_rnglists
-                0x000008ee       0x19 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+                0x000008f5       0x19 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
  .debug_rnglists
-                0x00000907       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+                0x0000090e       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
  .debug_rnglists
-                0x0000091a       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+                0x00000921       0x13 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
 
 .debug_macro    0x00000000     0x3090
  .debug_macro   0x00000000       0x76 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
@@ -4062,64 +4076,64 @@ LOAD C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/
  .debug_macro   0x00002fac       0x16 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
  .debug_macro   0x00002fc2       0xce CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
 
-.debug_line     0x00000000     0xe339
+.debug_line     0x00000000     0xe38e
  .debug_line    0x00000000      0x489 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
  .debug_line    0x00000489      0x7b1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
- .debug_line    0x00000c3a      0x9cc CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .debug_line    0x00001606      0x86e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_line    0x00001e74      0x7ef CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_line    0x00002663     0x2db5 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_line    0x00005418      0xb93 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_line    0x00005fab     0x10e7 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_line    0x00007092     0x15b4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_line    0x00008646      0xbe6 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_line    0x0000922c      0xd74 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_line    0x00009fa0      0xd2d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_line    0x0000accd      0x82a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_line    0x0000b4f7      0x36f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
- .debug_line    0x0000b866      0x693 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
- .debug_line    0x0000bef9       0x7a CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
- .debug_line    0x0000bf73      0x259 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
- .debug_line    0x0000c1cc      0x354 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
- .debug_line    0x0000c520      0x2cf C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
- .debug_line    0x0000c7ef      0x2e6 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
- .debug_line    0x0000cad5      0x185 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_line    0x0000cc5a      0x6c5 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_line    0x0000d31f      0x70d C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_line    0x0000da2c      0x3b6 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
- .debug_line    0x0000dde2      0x2b3 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
- .debug_line    0x0000e095      0x220 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
- .debug_line    0x0000e2b5       0x84 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_line    0x00000c3a      0xa21 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+ .debug_line    0x0000165b      0x86e CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_line    0x00001ec9      0x7ef CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_line    0x000026b8     0x2db5 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_line    0x0000546d      0xb93 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_line    0x00006000     0x10e7 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_line    0x000070e7     0x15b4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000869b      0xbe6 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_line    0x00009281      0xd74 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_line    0x00009ff5      0xd2d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_line    0x0000ad22      0x82a CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_line    0x0000b54c      0x36f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+ .debug_line    0x0000b8bb      0x693 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x0000bf4e       0x7a CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+ .debug_line    0x0000bfc8      0x259 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+ .debug_line    0x0000c221      0x354 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+ .debug_line    0x0000c575      0x2cf C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+ .debug_line    0x0000c844      0x2e6 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+ .debug_line    0x0000cb2a      0x185 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_line    0x0000ccaf      0x6c5 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_line    0x0000d374      0x70d C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_line    0x0000da81      0x3b6 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+ .debug_line    0x0000de37      0x2b3 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+ .debug_line    0x0000e0ea      0x220 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+ .debug_line    0x0000e30a       0x84 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
 
-.debug_str      0x00000000    0xea370
- .debug_str     0x00000000    0xea370 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
+.debug_str      0x00000000    0xea360
+ .debug_str     0x00000000    0xea360 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj
                                0x3f2c (size before relaxing)
- .debug_str     0x000ea370    0xe10e2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
- .debug_str     0x000ea370    0xe519f CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
- .debug_str     0x000ea370    0xe10e4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
- .debug_str     0x000ea370    0xe192d CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
- .debug_str     0x000ea370    0xe1c3a CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
- .debug_str     0x000ea370    0xe1ae1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
- .debug_str     0x000ea370    0xe1528 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
- .debug_str     0x000ea370    0xe16a1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
- .debug_str     0x000ea370    0xe105b CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
- .debug_str     0x000ea370    0xe143d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
- .debug_str     0x000ea370    0xe175b CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
- .debug_str     0x000ea370    0xe0ee2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
- .debug_str     0x000ea370     0x71ac CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
- .debug_str     0x000ea370     0x94b3 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
- .debug_str     0x000ea370       0xca CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
- .debug_str     0x000ea370      0x56c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
- .debug_str     0x000ea370      0x5bc C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
- .debug_str     0x000ea370      0x567 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
- .debug_str     0x000ea370      0x562 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
- .debug_str     0x000ea370      0x52b C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
- .debug_str     0x000ea370      0x8e2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
- .debug_str     0x000ea370      0x810 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
- .debug_str     0x000ea370      0x6c4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
- .debug_str     0x000ea370      0x679 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
- .debug_str     0x000ea370      0x531 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
- .debug_str     0x000ea370       0xe2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
+ .debug_str     0x000ea360    0xe10e2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/keypad_driver.c.obj
+ .debug_str     0x000ea360    0xe51c2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/main.c.obj
+ .debug_str     0x000ea360    0xe10e4 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_it.c.obj
+ .debug_str     0x000ea360    0xe192d CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/stm32l4xx_hal_msp.c.obj
+ .debug_str     0x000ea360    0xe1c3a CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_uart.c.obj
+ .debug_str     0x000ea360    0xe1ae1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c.obj
+ .debug_str     0x000ea360    0xe1528 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c.obj
+ .debug_str     0x000ea360    0xe16a1 CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc_ex.c.obj
+ .debug_str     0x000ea360    0xe105b CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_gpio.c.obj
+ .debug_str     0x000ea360    0xe143d CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr_ex.c.obj
+ .debug_str     0x000ea360    0xe175b CMakeFiles/4100901-Room_Control-CubeMX.dir/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_cortex.c.obj
+ .debug_str     0x000ea360    0xe0ee2 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/system_stm32l4xx.c.obj
+ .debug_str     0x000ea360     0x71ac CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/sysmem.c.obj
+ .debug_str     0x000ea360     0x94b3 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x000ea360       0xca CMakeFiles/4100901-Room_Control-CubeMX.dir/startup_stm32l476xx.s.obj
+ .debug_str     0x000ea360      0x56c C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-printf.o)
+ .debug_str     0x000ea360      0x5bc C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-puts.o)
+ .debug_str     0x000ea360      0x567 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wbuf.o)
+ .debug_str     0x000ea360      0x562 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-wsetup.o)
+ .debug_str     0x000ea360      0x52b C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-errno.o)
+ .debug_str     0x000ea360      0x8e2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf.o)
+ .debug_str     0x000ea360      0x810 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-nano-vfprintf_i.o)
+ .debug_str     0x000ea360      0x6c4 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-makebuf.o)
+ .debug_str     0x000ea360      0x679 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-fstatr.o)
+ .debug_str     0x000ea360      0x531 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-isattyr.o)
+ .debug_str     0x000ea360       0xe2 C:/ST/STM32CubeCLT_1.18.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libg_nano.a(libc_a-memchr.o)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/4100901-Room_Control-CubeMX.dir/Core/Src/ring_buffer.c.obj

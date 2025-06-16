@@ -4,16 +4,6 @@
   * @file           : main.c
   * @brief          : Main program body
   ******************************************************************************
-  * @attention
-  *
-  * Copyright (c) 2025 STMicroelectronics.
-  * All rights reserved.
-  *
-  * This software is licensed under terms that can be found in the LICENSE file
-  * in the root directory of this software component.
-  * If no LICENSE file comes with this software, it is provided AS-IS.
-  *
-  ******************************************************************************
   */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
@@ -27,39 +17,29 @@
 #include <stdio.h>
 /* USER CODE END Includes */
 
-/* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-
-/* USER CODE END PTD */
-
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+#define UART2_RX_LEN 16
+#define KEYPAD_BUFFER_LEN 16
 /* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-#define UART2_RX_LEN 16
 uint8_t uart2_rx_buffer[UART2_RX_LEN];
+uint8_t uart2_rx_data;
 ring_buffer_t uart2_rx_rb;
-uint8_t uart2_rx_data; // Variable to hold received data
+
+uint8_t keypad_buffer[KEYPAD_BUFFER_LEN];
+ring_buffer_t keypad_rb;
+
 keypad_handle_t keypad = {
     .row_ports = {KEYPAD_R1_GPIO_Port, KEYPAD_R2_GPIO_Port, KEYPAD_R3_GPIO_Port, KEYPAD_R4_GPIO_Port},
     .row_pins  = {KEYPAD_R1_Pin, KEYPAD_R2_Pin, KEYPAD_R3_Pin, KEYPAD_R4_Pin},
     .col_ports = {KEYPAD_C1_GPIO_Port, KEYPAD_C2_GPIO_Port, KEYPAD_C3_GPIO_Port, KEYPAD_C4_GPIO_Port},
     .col_pins  = {KEYPAD_C1_Pin, KEYPAD_C2_Pin, KEYPAD_C3_Pin, KEYPAD_C4_Pin}
 };
-
-#define KEYPAD_BUFFER_LEN 16
-uint8_t keypad_buffer[KEYPAD_BUFFER_LEN];
-ring_buffer_t keypad_rb;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -67,90 +47,66 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
-
+int __io_putchar(int ch);
 /* USER CODE END PFP */
 
-/* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+
+// Redirige printf a UART2
+int __io_putchar(int ch) {
+    HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
+    return ch;
+}
+
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == USART2) {
-      HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
-      ring_buffer_write(&uart2_rx_rb, uart2_rx_data);
+        if (!ring_buffer_is_full(&uart2_rx_rb)) {
+            ring_buffer_write(&uart2_rx_rb, uart2_rx_data);
+        }
+        HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
     }
 }
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     char key = keypad_scan(&keypad, GPIO_Pin);
-    if (key != '\0') {
+    if (key != '\0' && !ring_buffer_is_full(&keypad_rb)) {
         ring_buffer_write(&keypad_rb, (uint8_t)key);
     }
 }
 /* USER CODE END 0 */
 
-/**
-  * @brief  The application entry point.
-  * @retval int
-  */
 int main(void)
 {
-
-  /* USER CODE BEGIN 1 */
-
-  /* USER CODE END 1 */
-
-  /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
-  /* Configure the system clock */
   SystemClock_Config();
-
-  /* USER CODE BEGIN SysInit */
-
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_USART2_UART_Init();
+
   /* USER CODE BEGIN 2 */
   ring_buffer_init(&uart2_rx_rb, uart2_rx_buffer, UART2_RX_LEN);
-  // Initialize the keypad
   ring_buffer_init(&keypad_rb, keypad_buffer, KEYPAD_BUFFER_LEN);
   keypad_init(&keypad);
+
   printf("Sistema listo. Esperando pulsaciones del teclado...\r\n");
 
-  while (1) {
-    uint8_t key_from_buffer;
-    if (ring_buffer_read(&keypad_rb, &key_from_buffer)) {
-        printf("Tecla presionada: %c\r\n", (char)key_from_buffer);
-    }
-  }
   HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
   /* USER CODE END 2 */
 
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
   while (1) {
-    if (ring_buffer_count(&uart2_rx_rb) >= 5) {
-      // If there are at least 5 bytes in the ring buffer, read and process them
-      for (int i = 0; i < 5; i++) {
-        if (ring_buffer_read(&uart2_rx_rb, &uart2_rx_data)) {
-          // Process the received data (for example, print it)
-          HAL_UART_Transmit(&huart2, &uart2_rx_data, 1, HAL_MAX_DELAY);
-        }
-      }
+    // UART buffer: leer y transmitir lo que haya disponible
+    while (ring_buffer_read(&uart2_rx_rb, &uart2_rx_data)) {
+      HAL_UART_Transmit(&huart2, &uart2_rx_data, 1, HAL_MAX_DELAY);
     }
-    /* USER CODE END WHILE */
 
-    /* USER CODE BEGIN 3 */
+    // Teclado: leer teclas presionadas
+    uint8_t key;
+    while (ring_buffer_read(&keypad_rb, &key)) {
+      printf("Tecla presionada: %c\r\n", (char)key);
+    }
   }
-  /* USER CODE END 3 */
 }
+
 
 /**
   * @brief System Clock Configuration
