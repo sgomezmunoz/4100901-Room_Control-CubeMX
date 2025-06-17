@@ -80,34 +80,40 @@ int main(void)
 {
   HAL_Init();
   SystemClock_Config();
-  MX_GPIO_Init();
+   MX_GPIO_Init();
   MX_USART2_UART_Init();
-
   /* USER CODE BEGIN 2 */
   ring_buffer_init(&uart2_rx_rb, uart2_rx_buffer, UART2_RX_LEN);
+  // Initialize the keypad
   ring_buffer_init(&keypad_rb, keypad_buffer, KEYPAD_BUFFER_LEN);
   keypad_init(&keypad);
-
   printf("Sistema listo. Esperando pulsaciones del teclado...\r\n");
 
   HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
   /* USER CODE END 2 */
 
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
   while (1) {
-    // UART buffer: leer y transmitir lo que haya disponible
-    while (ring_buffer_read(&uart2_rx_rb, &uart2_rx_data)) {
-      HAL_UART_Transmit(&huart2, &uart2_rx_data, 1, HAL_MAX_DELAY);
+    if (ring_buffer_count(&uart2_rx_rb) >= 5) {
+      // If there are at least 5 bytes in the ring buffer, read and process them
+      for (int i = 0; i < 5; i++) {
+        if (ring_buffer_read(&uart2_rx_rb, &uart2_rx_data)) {
+          // Process the received data (for example, print it)
+          HAL_UART_Transmit(&huart2, &uart2_rx_data, 1, HAL_MAX_DELAY);
+        }
+      }
     }
+    uint8_t key_from_buffer;
+    if (ring_buffer_read(&keypad_rb, &key_from_buffer)) {
+        printf("Tecla presionada: %c\r\n", (char)key_from_buffer);
+    }
+    /* USER CODE END WHILE */
 
-    // Teclado: leer teclas presionadas
-    uint8_t key;
-    while (ring_buffer_read(&keypad_rb, &key)) {
-      printf("Tecla presionada: %c\r\n", (char)key);
-    }
+    /* USER CODE BEGIN 3 */
   }
+  /* USER CODE END 3 */
 }
-
-
 /**
   * @brief System Clock Configuration
   * @retval None
