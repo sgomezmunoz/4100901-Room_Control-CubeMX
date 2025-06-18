@@ -30,35 +30,29 @@
 						"string" : "3.22"
 					},
 					"parentIndex" : 0,
-					"projectIndex" : 1,
-					"source" : "cmake/stm32cubemx"
+					"projectIndex" : 0,
+					"source" : "cmake/stm32cubemx",
+					"targetIndexes" : 
+					[
+						1
+					]
 				}
 			],
 			"name" : "Debug",
 			"projects" : 
 			[
 				{
-					"childIndexes" : 
-					[
-						1
-					],
 					"directoryIndexes" : 
 					[
-						0
+						0,
+						1
 					],
 					"name" : "4100901-Room_Control-CubeMX",
 					"targetIndexes" : 
 					[
-						0
-					]
-				},
-				{
-					"directoryIndexes" : 
-					[
+						0,
 						1
-					],
-					"name" : "stm32cubemx",
-					"parentIndex" : 0
+					]
 				}
 			],
 			"targets" : 
@@ -66,8 +60,15 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "4100901-Room_Control-CubeMX::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-4100901-Room_Control-CubeMX-Debug-9e9517e18e77268eead9.json",
+					"jsonFile" : "target-4100901-Room_Control-CubeMX-Debug-e7c3991c390decbc114e.json",
 					"name" : "4100901-Room_Control-CubeMX",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "STM32_Drivers::@768a070a0fe75716b479",
+					"jsonFile" : "target-STM32_Drivers-Debug-ec3ec330f7b27a2dde10.json",
+					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				}
 			]
@@ -76,8 +77,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/build/debug",
-		"source" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX"
+		"build" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/build/debug",
+		"source" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX"
 	},
 	"version" : 
 	{

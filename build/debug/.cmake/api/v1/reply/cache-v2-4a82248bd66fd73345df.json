@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/build/debug"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/build/debug"
 		},
 		{
 			"name" : "4100901-Room_Control-CubeMX_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -215,7 +215,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/build/debug"
+			"value" : "c:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/build/debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -667,7 +667,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/build/debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/build/debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -727,7 +727,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1207,7 +1207,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1235,7 +1235,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/build/debug/cmake/stm32cubemx"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/build/debug/cmake/stm32cubemx"
 		},
 		{
 			"name" : "stm32cubemx_IS_TOP_LEVEL",
@@ -1259,7 +1259,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/cmake/stm32cubemx"
+			"value" : "C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/cmake/stm32cubemx"
 		}
 	],
 	"kind" : "cache",

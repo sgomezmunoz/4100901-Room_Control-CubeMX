@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Usuario-PC/Desktop/Estructuras_C/4100901-Room_Control-CubeMX/cmake/stm32cubemx
+# Install script for directory: C:/Users/gomes/OneDrive/Escritorio/Estructuras/4100901-Room_Control-CubeMX/cmake/stm32cubemx
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

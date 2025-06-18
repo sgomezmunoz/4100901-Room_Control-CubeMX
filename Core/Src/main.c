@@ -17,11 +17,21 @@
 #include <stdio.h>
 /* USER CODE END Includes */
 
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define UART2_RX_LEN 16
 #define KEYPAD_BUFFER_LEN 16
 /* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
 UART_HandleTypeDef huart2;
@@ -50,6 +60,7 @@ static void MX_USART2_UART_Init(void);
 int __io_putchar(int ch);
 /* USER CODE END PFP */
 
+/* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
 // Redirige printf a UART2
@@ -57,30 +68,52 @@ int __io_putchar(int ch) {
     HAL_UART_Transmit(&huart2, (uint8_t *)&ch, 1, HAL_MAX_DELAY);
     return ch;
 }
-
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
     if (huart->Instance == USART2) {
-        if (!ring_buffer_is_full(&uart2_rx_rb)) {
-            ring_buffer_write(&uart2_rx_rb, uart2_rx_data);
-        }
-        HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
+      HAL_UART_Receive_IT(&huart2, &uart2_rx_data, 1);
+      ring_buffer_write(&uart2_rx_rb, uart2_rx_data);
     }
 }
 
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
     char key = keypad_scan(&keypad, GPIO_Pin);
-    if (key != '\0' && !ring_buffer_is_full(&keypad_rb)) {
+    if (key != '\0') {
+      printf("Interrupción: tecla detectada '%c'\r\n", key);  // <--- DEBUG
         ring_buffer_write(&keypad_rb, (uint8_t)key);
     }
 }
 /* USER CODE END 0 */
 
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
 int main(void)
 {
+
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
   HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
   SystemClock_Config();
-   MX_GPIO_Init();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
   ring_buffer_init(&uart2_rx_rb, uart2_rx_buffer, UART2_RX_LEN);
@@ -95,6 +128,10 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1) {
+    uint8_t key_from_buffer;
+    if (ring_buffer_count(&keypad_rb) > 0) {
+    printf("Tecla en buffer, procesando...\r\n");
+    }
     if (ring_buffer_count(&uart2_rx_rb) >= 5) {
       // If there are at least 5 bytes in the ring buffer, read and process them
       for (int i = 0; i < 5; i++) {
@@ -104,7 +141,6 @@ int main(void)
         }
       }
     }
-    uint8_t key_from_buffer;
     if (ring_buffer_read(&keypad_rb, &key_from_buffer)) {
         printf("Tecla presionada: %c\r\n", (char)key_from_buffer);
     }
@@ -114,6 +150,7 @@ int main(void)
   }
   /* USER CODE END 3 */
 }
+
 /**
   * @brief System Clock Configuration
   * @retval None
@@ -236,19 +273,19 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : KEYPAD_C1_Pin */
   GPIO_InitStruct.Pin = KEYPAD_C1_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(KEYPAD_C1_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pin : KEYPAD_C4_Pin */
   GPIO_InitStruct.Pin = KEYPAD_C4_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(KEYPAD_C4_GPIO_Port, &GPIO_InitStruct);
 
   /*Configure GPIO pins : KEYPAD_C2_Pin KEYPAD_C3_Pin */
   GPIO_InitStruct.Pin = KEYPAD_C2_Pin|KEYPAD_C3_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
